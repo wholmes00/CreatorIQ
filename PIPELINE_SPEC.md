@@ -69,7 +69,7 @@ These rules are **permanent**. They cannot be overridden for speed, convenience,
 | yt-dlp | `~/.local/bin/yt-dlp` | Video download |
 | ffmpeg | System install | Frame extraction (JPG), audio extraction (WAV) |
 | OpenAI Whisper | Base model, CPU-only | Transcription (THE ONLY METHOD) |
-| Supabase | Project: owklfaoaxdrggmbtcwpn | PostgreSQL database |
+| Supabase | Project: nfvkohmzxpsldjkuqqhh | PostgreSQL database |
 
 ---
 

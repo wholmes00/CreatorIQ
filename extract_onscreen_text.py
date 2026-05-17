@@ -24,8 +24,8 @@ from pathlib import Path
 from supabase import create_client
 
 # --- Config ---
-SUPABASE_URL = "https://owklfaoaxdrggmbtcwpn.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im93a2xmYW9heGRyZ2dtYnRjd3BuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0NDQyNjcsImV4cCI6MjA4OTAyMDI2N30.EQkJzeS4MYG4QO6aH9c_zbF7BNuH_bKwZIKQpTXvw1Y"
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://nfvkohmzxpsldjkuqqhh.supabase.co")
+SUPABASE_KEY = os.environ.get("SUPABASE_ANON_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5mdmtvaG16eHBzbGRqa3VxcWhoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg5OTU1NTIsImV4cCI6MjA5NDU3MTU1Mn0.OLGvuU3RcI9N1KESPhpYWmPXjBiLUUyKCCvYZoMSMms")
 
 WORK_DIR = Path("/sessions/fervent-admiring-brown/tiktok_engine/processing")
 FRAMES_DIR = WORK_DIR / "frames"

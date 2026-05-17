@@ -205,8 +205,8 @@
   },
 
   "database": {
-    "supabase_project_id": "owklfaoaxdrggmbtcwpn",
-    "total_videos_analyzed": 122,
+    "supabase_project_id": "nfvkohmzxpsldjkuqqhh",
+    "total_videos_analyzed": 141,
     "use_all_videos_holistically": true,
     "validation_gate": {
       "enabled": true,
