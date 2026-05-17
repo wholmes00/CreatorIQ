@@ -1,0 +1,20 @@
+# Environment variables (NEVER commit real keys)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Product outputs (large, per-product)
+output/
+*.docx
+
+# OS files
+.DS_Store
+Thumbs.db
